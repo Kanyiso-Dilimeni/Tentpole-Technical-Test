@@ -1,2 +1,2 @@
 # tentpole-technical-test
-income expense chart creator
+income expense chart creator.
