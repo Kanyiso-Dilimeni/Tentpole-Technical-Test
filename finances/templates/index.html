@@ -1,0 +1,13 @@
+<div class="title-bar-container" style="background-color: #338dff">
+    <h1>Tentpole Data Sciences Technical Test</h1>
+</div>
+
+{% load crispy_forms_tags %}
+<p style="font-color: red"> IMPORTANT: The date of birth is in the following format: mm/dd/yyyy </p>
+<form method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form|crispy }}
+    <br>
+    <input type="submit" value="Submit" style="background-color: #7cfc00">
+</form>
+<hr>
